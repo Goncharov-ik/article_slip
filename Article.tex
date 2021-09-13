@@ -1,0 +1,84 @@
+\documentclass{article}      % Определяем класс (тип) документа
+\usepackage[left=25mm, top=20mm, right=20mm, bottom=20mm, nohead, nofoot]{geometry}
+\usepackage{graphicx}	% Вставка картинок
+\graphicspath{{pics}}
+\DeclareGraphicsExtensions{.pdf, .png, .jpg}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\pagenumbering{gobble}
+\usepackage{verbatim}
+\usepackage{siunitx}
+
+\nonfrenchspacing % Разрешаем увеличивать пробел после конца предложения
+
+% Keywords command
+\providecommand{\keywords}[1]
+{
+	\small
+	\textbf{\textit{Keywords---}} #1
+}
+
+\title{Using an IMU Array for cycle slip detection and repair}  % Определяем заголовок
+\author{Artem Novichkov$^{1}$, Ilya Goncharov$^{1}$ \\
+	\small $^{1}$Bauman Moscow State Technical University
+}  % Определяем имя автора
+\date{13 September 2021}     % Если убрать эту команду, будет напечатана
+ 
+\begin {document}
+
+\maketitle                   % Выводит заголовок
+
+\tableofcontents
+
+% Аннотация
+\begin{abstract}
+	Текст аннотации
+\end{abstract}
+
+\keywords{one, two, three, four}
+
+$$\vec{F} = m\vec{a}$$
+
+По формуле Второго закона Ньютона (\ref{eq:newtone}):
+\begin{equation}
+	\vec{F} = m\vec{a}
+	\label{eq:newtone}
+\end{equation}
+
+\input{introduction.tex}
+
+\input{cycle slip.tex}
+
+\input{imu cluster.tex}
+
+\input{error estimation.tex}
+
+% Вставка картинки
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\linewidth]{acc_x_adev.pdf}
+	\caption{График девиации Аллана}
+	\label{fig:mpr}
+\end{figure}
+
+\begin{em}
+	Я бы глянул модель, которую Голован давал, модель, которую давали в книге Салычева. Так для верности. Модель упрощаем для случая наземного объекта, это сильно проще. 
+\end{em}
+
+\input{synthesis.tex}
+
+\input{compare imu.tex}
+
+\begin{thebibliography}{00}
+	\bibitem{b2} Author1 Article1
+\end{thebibliography}
+
+
+\end {document}
