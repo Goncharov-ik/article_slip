@@ -79,42 +79,42 @@
 	\caption{Смещение нуля и дрейф от запуска к запуску гироскопов MPU6050}
 	\begin{tabular}{|c|c|c|c|}
 	\hline
-	Position & Axis & Mean, \SI[per-mode=symbol]{}{\degree\per\second} & RTR, \SI[per-mode=symbol]{}{\degree\per\second} \\ \hline
-	\multirow{3}{*}{Pos.1}	& X & 0.0 & 0.0 \\												 
+	Position & Axis & Mean, \SI[per-mode=symbol]{}{\degree\per\second} & RTR, \SI[per-mode=symbol]{}{\degree\per\hour} \\ \hline
+	\multirow{3}{*}{Pos.1}	& X & -1.0739 & 44.8406 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -1.0022 & 17.3611 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2711 & 22.4487 \\												 
 	\hline
-	\multirow{3}{*}{Pos.2}	& X & 0.0 & 0.0 \\												 
+	\multirow{3}{*}{Pos.2}	& X & -1.0246 & 59.2236 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -0.9897 & 15.8603 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2628 & 27.1911 \\												 
 	\hline	
-	\multirow{3}{*}{Pos.3}	& X & 0.0 & 0.0 \\												 
+	\multirow{3}{*}{Pos.3}	& X & -1.0122 & 66.8934 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -0.9913 & 16.7310 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2515 & 34.0154 \\												 
 	\hline
-	\multirow{3}{*}{Pos.4}	& X & 0.0 & 0.0 \\												 
+	\multirow{3}{*}{Pos.4}	& X & -1.0254 & 17.4720 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -0.9991 & 7.7416 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2946 & 12.8763 \\												 
 	\hline
-	\multirow{3}{*}{Pos.5}	& X & 0.0 & 0.0 \\												 
+	\multirow{3}{*}{Pos.5}	& X & -1.0106 & 13.5531 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -0.9849 & 3.7527 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2519 & 7.4237 \\												 
 	\hline
-	\multirow{3}{*}{Pos.6}	& X & 0.0 & 0.0 \\												 
+	\multirow{3}{*}{Pos.6}	& X & -1.0095 & 1.7701 \\												 
 							\cline{2-4}
-							& Y & 0.0 & 0.0 \\												 
+							& Y & -0.9878 & 12.9651 \\												 
 							\cline{2-4}
-							& Z & 0.0 & 0.0 \\												 
+							& Z & 1.2655 & 19.6326 \\												 
 	\hline
 	\end{tabular}
 	\label{table:gyr_rtr}
@@ -124,6 +124,12 @@
 %Оценка шумовых характеристик используемых датчиков по методу вариации Аллана
 
 %Графики девиации Аллана для акселерометров по каналу Y. Сводная таблица погрешностей акселерометров.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{acc_y_adev.pdf}
+	\caption{Девиация Аллана акселерометров по оси Y}
+	\label{fig:acc_y_allan}
+\end{figure}
 
 \begin{table}[h!]
 	\centering
@@ -156,6 +162,12 @@
 %Выводы по данным из таблицы
 
 %Графики девиации Аллана для гироскопов по каналу Y. Сводная таблица погрешностей гироскопов.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{gyr_y_adev.pdf}
+	\caption{Девиация Аллана гироскопов по оси Y}
+	\label{fig:gyr_y_allan}
+\end{figure}
 
 \begin{table}[h!]
 	\centering
@@ -186,3 +198,5 @@
 \end{table}
 
 %Выводы по данным таблицы
+
+\newpage
