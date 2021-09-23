@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{}{}%
+\contentsline {section}{\numberline {2}IMU Cluster}{}{}%
+\contentsline {section}{\numberline {3}Оценка выходных погрешностей}{}{}%
+\contentsline {section}{\numberline {4}Интеграция ИНС/ГНСС}{}{}%
+\contentsline {section}{\numberline {5}Сравнение кластера и аналогичного по характеристикам IMU}{}{}%
