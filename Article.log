@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  27 SEP 2021 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.28)  28 SEP 2021 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read3
 )
 (c:/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2021-09-06 v3.0.29 A comprehensive (SI) units package
+Package: siunitx 2021-08-27 v3.0.28 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen176
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
@@ -530,31 +530,49 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count290
 \multirow@dima=\skip59
 \bigstrutjot=\dimen183
+)
+(c:/texlive/2021/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(c:/texlive/2021/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen184
 ) (./Article.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 .
 
 (c:/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)
+
+LaTeX Warning: Label `fig:cluster_pcb' multiply defined.
+
+)
 \openout1 = `Article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -593,13 +611,13 @@ LaTeX Font Info:    ... okay on input line 35.
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count291
-\scratchdimen=\dimen184
+\scratchdimen=\dimen185
 \scratchbox=\box63
 \nofMPsegments=\count292
 \nofMParguments=\count293
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count294
-\MPscratchDim=\dimen185
+\MPscratchDim=\dimen186
 \MPnumerator=\count295
 \makeMPintoPDFobject=\count296
 \everyMPtoPDFconversion=\toks29
@@ -612,11 +630,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \th on input line 35.
+LaTeX Info: Redefining \th on input line 37.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-ru
-ssian.trsl' found. on input line 35.
+ssian.trsl' found. on input line 37.
 
 (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -624,13 +642,13 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+or `english'. on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -662,7 +680,7 @@ Package pdftex.def Info: pics/acc_y_adev.pdf  used on input line 140.
 <pics/gyr_y_adev.pdf, id=38, 774.895pt x 593.21625pt>
 File: pics/gyr_y_adev.pdf Graphic file (type pdf)
 <use pics/gyr_y_adev.pdf>
-Package pdftex.def Info: pics/gyr_y_adev.pdf  used on input line 185.
+Package pdftex.def Info: pics/gyr_y_adev.pdf  used on input line 187.
 (pdftex.def)             Requested size: 340.37885pt x 260.57242pt.
 
 
@@ -671,113 +689,90 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./pics/gyr_y_adev.pdf>]) (./error estimation.tex [5] [6]
-<pics/acc_av_adev.pdf, id=65, 774.895pt x 593.21625pt>
+[4 <./pics/gyr_y_adev.pdf>]) (./error estimation.tex [5]
+<pics/acc_av_adev.pdf, id=62, 774.895pt x 593.21625pt>
 File: pics/acc_av_adev.pdf Graphic file (type pdf)
 <use pics/acc_av_adev.pdf>
-Package pdftex.def Info: pics/acc_av_adev.pdf  used on input line 96.
+Package pdftex.def Info: pics/acc_av_adev.pdf  used on input line 91.
 (pdftex.def)             Requested size: 437.62888pt x 335.02298pt.
- [7 <./pics/acc_av_adev.pdf>]
-<pics/pitch.png, id=81, 414.04688pt x 328.22626pt>
+ [6 <./pics/acc_av_adev.pdf>]
+<pics/pitch.png, id=77, 414.04688pt x 328.22626pt>
 File: pics/pitch.png Graphic file (type png)
 <use pics/pitch.png>
-Package pdftex.def Info: pics/pitch.png  used on input line 111.
+Package pdftex.def Info: pics/pitch.png  used on input line 106.
 (pdftex.def)             Requested size: 340.37885pt x 269.8334pt.
-<pics/roll.png, id=82, 425.33907pt x 328.97906pt>
+<pics/roll.png, id=78, 425.33907pt x 328.97906pt>
 File: pics/roll.png Graphic file (type png)
 <use pics/roll.png>
-Package pdftex.def Info: pics/roll.png  used on input line 117.
+Package pdftex.def Info: pics/roll.png  used on input line 112.
 (pdftex.def)             Requested size: 340.37885pt x 263.27898pt.
- [8 <./pics/pitch.png> <./pics/roll.png>]
-<pics/gyr_av_adev.pdf, id=86, 774.895pt x 593.21625pt>
+ [7 <./pics/pitch.png> <./pics/roll.png>]
+<pics/gyr_av_adev.pdf, id=83, 774.895pt x 593.21625pt>
 File: pics/gyr_av_adev.pdf Graphic file (type pdf)
 <use pics/gyr_av_adev.pdf>
-Package pdftex.def Info: pics/gyr_av_adev.pdf  used on input line 129.
+Package pdftex.def Info: pics/gyr_av_adev.pdf  used on input line 124.
 (pdftex.def)             Requested size: 437.62888pt x 335.02298pt.
- [9 <./pics/gyr_av_adev.pdf>]
-<pics/longitudeError.png, id=101, 425.33907pt x 328.97906pt>
+ [8 <./pics/gyr_av_adev.pdf>]
+<pics/longitudeError.png, id=98, 425.33907pt x 328.97906pt>
 File: pics/longitudeError.png Graphic file (type png)
 <use pics/longitudeError.png>
-Package pdftex.def Info: pics/longitudeError.png  used on input line 139.
+Package pdftex.def Info: pics/longitudeError.png  used on input line 134.
 (pdftex.def)             Requested size: 389.00757pt x 300.89241pt.
-<pics/latitudeError.png, id=102, 425.33907pt x 328.97906pt>
+<pics/latitudeError.png, id=99, 425.33907pt x 328.97906pt>
 File: pics/latitudeError.png Graphic file (type png)
 <use pics/latitudeError.png>
-Package pdftex.def Info: pics/latitudeError.png  used on input line 145.
+Package pdftex.def Info: pics/latitudeError.png  used on input line 140.
 (pdftex.def)             Requested size: 389.00757pt x 300.89241pt.
- [10 <./pics/longitudeError.png> <./pics/latitudeError.png>]) (./synthesis.tex
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \cyrh invalid in math mode on input line 15.
-
-
-LaTeX Warning: Command \cyru invalid in math mode on input line 15.
+[9 <./pics/longitudeError.png> <./pics/latitudeError.png>]) (./synthesis.tex
+<pics/integration.png, id=103, 795.87338pt x 388.75238pt>
+File: pics/integration.png Graphic file (type png)
+<use pics/integration.png>
+Package pdftex.def Info: pics/integration.png  used on input line 13.
+(pdftex.def)             Requested size: 486.25761pt x 237.52417pt.
 
 
-LaTeX Warning: Command \cyryu invalid in math mode on input line 15.
-
-Missing character: There is no ï in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no õ in font cmr10!
-Missing character: There is no ó in font cmr10!
-Missing character: There is no þ in font cmr10!
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 23.
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 28.
 
 
-LaTeX Warning: Command \cyrh invalid in math mode on input line 23.
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
 
 
-LaTeX Warning: Command \cyru invalid in math mode on input line 23.
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
+ []
 
-LaTeX Warning: Command \cyryu invalid in math mode on input line 23.
+[10 <./pics/integration.png>] [11]) (./compare imu.tex) [12] (./Article.aux)
 
-Missing character: There is no ï in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no õ in font cmr10!
-Missing character: There is no ó in font cmr10!
-Missing character: There is no þ in font cmr10!
+LaTeX Warning: There were multiply-defined labels.
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 30.
-
-
-LaTeX Warning: Command \cyrh invalid in math mode on input line 30.
-
-
-LaTeX Warning: Command \cyru invalid in math mode on input line 30.
-
-
-LaTeX Warning: Command \cyryu invalid in math mode on input line 30.
-
-Missing character: There is no ï in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no õ in font cmr10!
-Missing character: There is no ó in font cmr10!
-Missing character: There is no þ in font cmr10!
-) (./compare imu.tex) [11] (./Article.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 10680 strings out of 478599
- 214217 string characters out of 5858102
- 512263 words of memory out of 5000000
- 28405 multiletter control sequences out of 15000+600000
- 421173 words of font info for 73 fonts, out of 8000000 for 9000
+ 10917 strings out of 478599
+ 216976 string characters out of 5858101
+ 515995 words of memory out of 5000000
+ 28615 multiletter control sequences out of 15000+600000
+ 427620 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,13n,81p,1031b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/e
-nc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/
-cm-super/cm-super-t2a.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/
+ 73i,17n,81p,1031b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/tex
+live/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/
 texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2021/texmf-d
 ist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/
@@ -785,10 +780,10 @@ type1/public/cm-super/sfrm0900.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728
 .pfb>
-Output written on Article.pdf (11 pages, 1718417 bytes).
+Output written on Article.pdf (12 pages, 1865191 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
