@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.28)  28 SEP 2021 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.8)  29 SEP 2021 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,7 +448,7 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read3
 )
 (c:/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2021-08-27 v3.0.28 A comprehensive (SI) units package
+Package: siunitx 2021-09-06 v3.0.29 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen176
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
@@ -725,17 +725,59 @@ Package pdftex.def Info: pics/latitudeError.png  used on input line 140.
 (pdftex.def)             Requested size: 389.00757pt x 300.89241pt.
 
 [9 <./pics/longitudeError.png> <./pics/latitudeError.png>]) (./synthesis.tex
-<pics/integration.png, id=103, 795.87338pt x 388.75238pt>
-File: pics/integration.png Graphic file (type png)
-<use pics/integration.png>
-Package pdftex.def Info: pics/integration.png  used on input line 13.
-(pdftex.def)             Requested size: 486.25761pt x 237.52417pt.
 
+LaTeX Warning: File `integration.png' not found on input line 13.
+
+
+! Package pdftex.def Error: File `integration.png' not found: using draft setti
+ng.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...hics[width=1.0\linewidth]{integration.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+13.
+(c:/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+! Font T2A/cmtt/m/n/10=latt1000 at 10.0pt not loadable: Metric (TFM) file not f
+ound.
+<to be read again> 
+                   relax 
+l.13 ...hics[width=1.0\linewidth]{integration.png}
+                                                  
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 
 Package amsmath Warning: Cannot use `split' here;
 (amsmath)                trying to recover with `aligned' on input line 28.
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -745,16 +787,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[10 <./pics/integration.png>] [11]) (./compare imu.tex) [12] (./Article.aux)
+[11] [12]) (./compare imu.tex) [13] (./Article.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10917 strings out of 478599
- 216976 string characters out of 5858101
- 515995 words of memory out of 5000000
- 28615 multiletter control sequences out of 15000+600000
+ 10944 strings out of 478599
+ 217720 string characters out of 5858102
+ 517009 words of memory out of 5000000
+ 28635 multiletter control sequences out of 15000+600000
  427620 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,17n,81p,1031b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -780,10 +822,10 @@ type1/public/cm-super/sfrm0900.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728
 .pfb>
-Output written on Article.pdf (12 pages, 1865191 bytes).
+Output written on Article.pdf (13 pages, 1769169 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 216 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
